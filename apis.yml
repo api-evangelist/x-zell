@@ -1,7 +1,29 @@
 aid: x-zell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/x-zell.png
 name: X Zell
-description: X Zell is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  X-ZELL is a Thailand-based medical technology company (Y Combinator W15) building a
+  multiplex cytopathology product ecosystem that combines cryofixation, immunostaining,
+  and digital imaging to turn limited cytology specimens into data-rich diagnostic
+  workflows. Its Cryosuite platform pairs a Cryofixator and Cryostainer for specimen
+  processing and automated staining, alongside Cryophore multiplex antibody panels for
+  pleural fluid, ascitic fluid, and tumor-origin analysis, validated conjugated
+  antibodies, and ISO 13485-certified reagent and OEM manufacturing. Founded by
+  physician-scientist Sebastian Punyaratabandhu Bhakdi, the company originated in
+  rare-cell detection (Circulating Endothelial Cells). It is a hardware, reagent, and
+  laboratory-instrument business and publishes no public API, developer platform, SDKs,
+  or machine-readable API specifications at this time.
 url: https://raw.githubusercontent.com/api-evangelist/x-zell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Technology
+- Cytopathology
+- Diagnostics
+- Laboratory Instruments
+- Life Sciences
+- Reagents
+- Healthcare
+common:
+- type: Website
+  url: https://www.x-zell.com
+- type: TermsOfService
+  url: https://www.x-zell.com/terms
+- type: PrivacyPolicy
+  url: https://www.x-zell.com/privacy
+- type: Support
+  url: https://www.x-zell.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/xzell
+- type: Twitter
+  url: https://x.com/XZELLInc
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
